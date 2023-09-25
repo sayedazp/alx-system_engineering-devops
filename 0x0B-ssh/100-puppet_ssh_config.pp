@@ -1,3 +1,4 @@
+# puppet manifest to change ssh configuration
 file_line { 'no pass required':
   ensure => 'present',
   path   => '/etc/ssh/ssh_config',
