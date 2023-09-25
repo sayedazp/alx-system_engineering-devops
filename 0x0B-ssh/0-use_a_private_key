@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # a script to connect to remote server using ssh
-ssh-copy-id ~/.ssh/school -i ubuntu@34.207.154.251
+ssh-copy-id -i ~/.ssh/school ubuntu@34.207.154.251
 ssh ubuntu@34.207.154.251
