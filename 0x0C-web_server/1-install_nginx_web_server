@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-apt-get update
-apt-get -y install ngix
-echo "Hello World!" > /var/www/html/index.html
-service ngix start
+#remote server configurations!
+sudo apt-get update
+sudo apt-get -y install nginx
+sudo echo "Hello World!" > /var/www/html/index.html
+sudo service nginx start
