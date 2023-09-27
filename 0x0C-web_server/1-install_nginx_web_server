@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+apt-get update
+apt-get -y install ngix
+echo "Hello World!" > /var/www/html/index.html
+service ngix start
