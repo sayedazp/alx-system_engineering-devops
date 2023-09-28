@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # script to initialize server apache
-echo "Hello World!" > /var/www/html/index.html
+echo "Hello Holberton" > /var/www/html/index.html
 sudo /etc/init.d/apache2 start
