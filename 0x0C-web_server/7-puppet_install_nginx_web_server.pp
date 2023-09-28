@@ -17,5 +17,6 @@ file { '/etc/nginx/sites-available/default':
     location /redirect_me {
         return 301 https://www.youtube.com/watch?v=QH2-TGUlwu4&ab_channel=NyanCat;
     }
-}",
+    }",
+    replace => true,
 }
