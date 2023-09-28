@@ -20,3 +20,8 @@ file { '/etc/nginx/sites-available/default':
     }",
     replace => true,
 }
+service { 'nginx':
+    ensure => running,
+    require => Package['nginx'],
+
+}
